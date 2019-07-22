@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "ZwoWeb";
+  src: url("../fonts/font.eot?#iefix");
+  src: url("../fonts/font.eot?#iefix") format("eot"),
+       url("../fonts/font.woff2") format("woff2"),
+       url("../fonts/font.woff") format("woff"),
+       url("../fonts/font.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  font-family: "ZwoWeb", sans-serif;
+  background: #fafafa;
+}
+
+#header {
+  padding: 40px 0 30px;
+  background: #2E99F8; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(45deg, #4ABAFC, #1877F3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg, #4ABAFC, #1877F3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg, #4ABAFC, #1877F3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg, #4ABAFC, #1877F3); /* Standard syntax */
+  box-shadow: 1px 1px 20px #aaa;
+}
+#header .logo {
+  display: block;
+  margin: 60px auto;
+}
+
+.downloads {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.downloads img {
+  height: 90px;
+}
+.downloads .col-sm-6:first-child {
+}
+
+.title {
+  text-align: center;
+  margin: 70px auto 90px;
+}
+h1 {
+  font-size: 110px;
+}
+.slogan {
+  font-size: 40px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.feature .icon {
+  font-size: 110px;
+  color: #74cafb;
+}
+.feature .desc {
+  margin-top: 15px;
+  font-size: 26px;
+}
+.features .row {
+}
+
+#footer {
+  background: #1D80F4;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.social {
+  text-align: center;
+}
+.social a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.social a:hover,
+.social a:active {
+}
